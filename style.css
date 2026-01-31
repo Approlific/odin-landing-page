@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-VariableFont_wdth\,wght.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 1rem 5rem;
+}
+
+header .header-links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header .header-links a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+main .hero {
+    padding: 75px;
+    display: flex;
+    flex-direction: row;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+main .hero h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+main .hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+main .hero .hero-text {
+    display: flex;
+    flex: 1;
+    width: 400px;
+    display: flex;
+    flex: 1;
+}
+
+main .hero img {
+    display: flex;
+    flex: 1;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+.hero button {
+    width: 6rem;
+    padding: 6px 12px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin-top: 10px;
+}
+
+footer {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
